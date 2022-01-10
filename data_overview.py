@@ -10,11 +10,9 @@
 # In[1]:
 
 
-from dash import html 
+from dash.dependencies import html 
 import dash
-import dash_bootstrap_components as dbc
-from dash import dcc
-from dash import dash_table
+from dash.dependencies import dcc, dash_table, dbc
 import pandas as pd
 from data_pre_processing import pre_process_metadata
 chronos = pd.read_csv("chronos.csv")
