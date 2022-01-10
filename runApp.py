@@ -9,12 +9,12 @@
 
 # In[ ]:
 
-
+import os
 # Installing the required libraries
-get_ipython().system('python -m pip install -r info.txt')
-get_ipython().system('pip install --upgrade dash dash-core-components dash-html-components dash-renderer')
-get_ipython().system('pip install dash_bootstrap_components')
-get_ipython().system('pip install ipynb')
+os.system('python -m pip install -r info.txt')
+os.system('pip install --upgrade dash dash-core-components dash-html-components dash-renderer')
+os.system('pip install dash_bootstrap_components')
+os.system('pip install ipynb')
 
 
 # In[38]:
