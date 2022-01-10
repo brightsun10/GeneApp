@@ -11,10 +11,13 @@
 
 import os
 # Installing the required libraries
-os.system('python -m pip install -r info.txt')
-os.system('pip install --upgrade dash-core-components dash-html-components dash-renderer')
+os.system('pip install dash')
+os.system('pip install dash-core-components')
+os.system('pip install dash-html-components')
+os.system('pip install dash-renderer')
+os.system('pip install dash-table')
+os.system('pip install plotly')
 os.system('pip install dash_bootstrap_components')
-os.system('pip install ipynb')
 
 
 # In[38]:
