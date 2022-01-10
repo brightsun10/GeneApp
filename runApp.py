@@ -12,7 +12,7 @@
 import os
 # Installing the required libraries
 os.system('python -m pip install -r info.txt')
-os.system('pip install --upgrade dash dash-core-components dash-html-components dash-renderer')
+os.system('pip install --upgrade dash-core-components dash-html-components dash-renderer')
 os.system('pip install dash_bootstrap_components')
 os.system('pip install ipynb')
 
@@ -40,10 +40,10 @@ import re
 
 
 # Importing the homePageHeaderTitle, Dataoverview, DataVisualization, data preprocessing
-import ipynb.fs.full.homepage_header_title  
-import ipynb.fs.full.data_overview 
-import ipynb.fs.full.data_visualization  
-import ipynb.fs.full.data_pre_processing  
+from homepage_header_title import header, title_menu, home_page
+from data_overview import data_overview_page
+from data_visualization import draw_plots, draw_scatter_plot, draw_violin_plot
+from data_pre_processing import pre_process_metadata
 
 
 # ### Reading Data Files
