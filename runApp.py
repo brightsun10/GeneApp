@@ -10,13 +10,13 @@
 # In[ ]:
 
 # Installing the required libraries
-!pip install dash
+pip install dash
 pip install dash-core-components
-!pip install dash-html-components
-!pip install dash-renderer
-!pip install dash-table
-!pip install plotly
-!pip install dash_bootstrap_components
+pip install dash-html-components
+pip install dash-renderer
+pip install dash-table
+pip install plotly
+pip install dash_bootstrap_components
 
 
 # In[38]:
