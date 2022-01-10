@@ -27,7 +27,7 @@ import pandas as pd
 import pandas as pd
 import numpy as np
 import dash
-from dash.dependencies import callback_context, Output, Input, dcc, dbc, html, dash_table
+from dash.dependencies import Output, Input, dcc, dbc, html, dash_table
 import plotly.express as px
 import plotly.graph_objs as go
 import re
@@ -105,7 +105,7 @@ app.layout = html.Div(style = {'backgroundColor' : colors['background'],
      Input("data-visualization-button", "n_clicks")]
 )
 def display_page(n_click_dashboard, n_click_dataoverview, n_click_datavisulaization):
-    changed_id = [p['prop_id'] for p in callback_context.triggered][0]
+    changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
     if n_click_dashboard in changed_id:
         return home_page()
     elif n_click_dataoverview in changed_id:
