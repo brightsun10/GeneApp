@@ -24,10 +24,13 @@
 
 # Importing libraries
 import pandas as pd
-import pandas as pd
 import numpy as np
 import dash
-from dash.dependencies import Output, Input, dcc, dbc, html, dash_table
+from dash import dash_table
+import dash_bootstrap_components as dbc
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Output, Input
 import plotly.express as px
 import plotly.graph_objs as go
 import re
