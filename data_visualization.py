@@ -10,10 +10,9 @@
 # In[1]:
 
 
-from dash import html 
+from dash.dependencies import html 
 import dash
-import dash_bootstrap_components as dbc
-from dash import dcc
+from dash.dependencies import dcc, dbc
 import pandas as pd
 import numpy as np
 from data_pre_processing import pre_process_metadata
