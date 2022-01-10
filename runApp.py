@@ -27,12 +27,7 @@ import pandas as pd
 import pandas as pd
 import numpy as np
 import dash
-import dash_bootstrap_components as dbc
-from dash import callback_context
-from dash import Output, Input
-from dash import dcc
-from dash import html
-from dash import dash_table
+from dash import callback_context, Output, Input, dcc, dbc, html, dash_table
 import plotly.express as px
 import plotly.graph_objs as go
 import re
