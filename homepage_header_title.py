@@ -8,7 +8,7 @@
 # In[6]:
 
 
-from dash import html 
+from dash.dependencies import html 
 import dash
 
 
