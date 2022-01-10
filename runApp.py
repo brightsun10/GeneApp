@@ -9,15 +9,14 @@
 
 # In[ ]:
 
-import os
 # Installing the required libraries
-os.system('pip install dash')
-os.system('pip install dash-core-components')
-os.system('pip install dash-html-components')
-os.system('pip install dash-renderer')
-os.system('pip install dash-table')
-os.system('pip install plotly')
-os.system('pip install dash_bootstrap_components')
+!pip install dash
+pip install dash-core-components
+!pip install dash-html-components
+!pip install dash-renderer
+!pip install dash-table
+!pip install plotly
+!pip install dash_bootstrap_components
 
 
 # In[38]:
